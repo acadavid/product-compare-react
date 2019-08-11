@@ -6,6 +6,7 @@
       "price": "$1.99",
       "colors": ["red", "green", "blue"],
       "condition": "Fresh",
+      "av_qty": "1",
       "description": "Two Cherries"
     },
     {
@@ -15,6 +16,7 @@
       "price": "$2.99",
       "colors": ["green", "blue"],
       "condition": "Frozen",
+      "av_qty": "3",
       "description": "Giant Orange"
     },
     {
@@ -24,6 +26,7 @@
       "price": "$1.00",
       "colors": ["red"],
       "condition": "Frozen",
+      "av_qty": "0",
       "description": "Mixed Nuts"
     },
     {
@@ -33,7 +36,18 @@
       "price": "$1.49",
       "colors": ["blue"],
       "condition": "Fresh",
+      "av_qty": "2",
       "description": "Just Strawberry"
+    },
+    {
+      "id": "5",
+      "name": "Pineapple",
+      "image": "images/Pineapple.png",
+      "price": "$2.99",
+      "colors": ["yellow", "green"],
+      "condition": "Fresh",
+      "av_qty": "10",
+      "description": "A Pineapple"
     }
   ]
 }

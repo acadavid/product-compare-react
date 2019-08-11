@@ -32,6 +32,17 @@ const Compare = ({products}) =>
               </td>
             )}
           </tr>
+          <tr className="quantity">
+            <th scope="row">Quantity</th>
+            {products.map(function(product) {
+              if (product.av_qty != 0) {
+                return <td key={product.id} className="text-center">{product.av_qty}</td>
+              } else {
+                return <td key={product.id} className="text-center">None</td>
+              }
+            }
+            )}
+          </tr>
           <tr className="condition">
             <th scope="row">Condition</th>
             {products.map(product =>
